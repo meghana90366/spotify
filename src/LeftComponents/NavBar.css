@@ -1,0 +1,56 @@
+@import url("https://pro.fontawesome.com/releases/v5.10.0/css/all.css");
+.UserleftBlock a {
+  text-decoration: none;
+  color: rgb(207, 192, 192);
+  padding: 0 5px;
+  font-weight: bold;
+}
+.UserleftBlock span {
+  display: block;
+  padding: 0 25px;
+}
+.UserleftBlock span:nth-child(5) {
+  display: block;
+  padding-top: 30px;
+}
+span a:hover {
+  color: #fff;
+}
+span i {
+  padding: 0 10px 0 0;
+}
+.UserleftBlock {
+  line-height: 40px;
+}
+#instal {
+  display: block;
+  padding-top: 100px;
+}
+#line {
+  border-bottom: 1px solid rgba(236, 228, 228, 0.24);
+}
+#line1 {
+  border-bottom: 1px solid rgba(236, 228, 228, 0.24);
+  z-index: 1;
+}
+.UserrightBlock {
+  display: flex;
+  justify-content: flex-end;
+}
+.arrow {
+  display: block;
+  flex-basis: 70%;
+  padding: 10px 10px;
+}
+.userbtn div {
+  display: flex;
+  padding: 30px;
+}
+.userbtn div button {
+  border: none;
+  border-radius: 500px;
+  padding: 10px 15px 10px 15px;
+}
+.userbtn div:nth-child(1) {
+  padding-right: 60px;
+}
